@@ -12,10 +12,14 @@ import {
     FaPhoneAlt,
     FaInstagram,
     FaWhatsapp,
+    FaBootstrap,
+    FaPaintBrush,
+    FaFileExcel,
+    FaFileWord,
 } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import profilePic from "../assets/nishaj1.png";
-import aboutPic from "../assets/nishaj1.png";
+import aboutPic from "../assets/nishajlapphoto - Copy.jpeg";
 
 
 export default function Home() {
@@ -81,7 +85,7 @@ export default function Home() {
                     <h2 className="text-4xl md:text-5xl font-bold leading-tight">
                         Hello <br />
                         I'm <span className="text-teal-400">Nishaj</span><br />
-                        <span className="text-gray-300">Software Developer</span>
+                        <span className="text-gray-300">Software Engineer</span>
                     </h2>
 
                     <div className="flex justify-center md:justify-start gap-4 pt-4">
@@ -92,12 +96,12 @@ export default function Home() {
                             Get a Project
                         </a>
                         <a
-                            href="#about"
+                            href="/nishajrasume.pdf"
                             className="border border-teal-500 px-6 py-3 rounded-lg text-teal-400 font-semibold hover:bg-teal-500 hover:text-white transition"
                         >
                             My Resume
                         </a>
-                        
+
                     </div>
                 </motion.div>
 
@@ -160,21 +164,16 @@ export default function Home() {
                     >
                         <p className="text-lg leading-relaxed">
                             Hi, I'm <span className="text-teal-400 font-semibold">Nishaj</span>, a
-                            passionate <span className="text-teal-400">Front-End Developer</span> who loves
-                            transforming ideas into interactive, modern, and user-friendly web
-                            experiences.
+                            passionate <span className="text-teal-400">Front-End Developer</span> focused on designing and developing responsive, modern, and user-friendly websites using React, HTML, CSS, JavaScript, and Tailwind CSS.
                         </p>
 
                         <p className="text-gray-400">
-                            My expertise includes working with technologies like React, Tailwind CSS,
-                            and Node.js to build responsive, performance-focused websites. I thrive on
-                            learning new frameworks and exploring creative UI animations to make
-                            websites come alive.
+                            I also have a strong commerce background and work as an <span className="text-teal-400 font-semibold">Accountancy Teacher</span>, with solid knowledge in <span className="text-teal-400 font-semibold">Financial Accounting</span> and <span className="text-teal-400 font-semibold">Final Accounts</span>. This foundation enhances my analytical thinking, accuracy, and <span className="text-teal-400 font-semibold">Problem-Solving</span> abilities.
                         </p>
 
+
                         <p className="text-gray-400">
-                            When I’m not coding, I enjoy experimenting with UI design, reading about
-                            tech innovations, and contributing to open-source projects.
+                            By combining <span className="text-teal-400 font-semibold">Web Development</span> with <span className="text-teal-400 font-semibold">Accountancy</span> expertise, I bring a structured and practical approach to my work. I am committed to continuous learning, improving UI design, and enhancing both my technical and professional skills.
                         </p>
 
 
@@ -183,7 +182,7 @@ export default function Home() {
                         {/* Stats / Highlights */}
                         <div className="flex flex-wrap justify-center md:justify-start gap-10 mt-10 text-center">
                             <div>
-                                <h4 className="text-4xl font-bold text-teal-400">10+</h4>
+                                <h4 className="text-4xl font-bold text-teal-400">30+</h4>
                                 <p className="text-gray-400">Completed Projects</p>
                             </div>
                             <div>
@@ -199,11 +198,10 @@ export default function Home() {
                         {/* Download Resume Button */}
                         <div className="pt-8">
                             <a
-                                href="/resume.pdf"
-                                download
+                                href="/nishajrasume.pdf"
                                 className="bg-teal-500 hover:bg-teal-400 text-white font-semibold px-6 py-3 rounded-lg transition"
                             >
-                                Download Resume
+                                View Resume
                             </a>
                         </div>
                     </motion.div>
@@ -215,19 +213,13 @@ export default function Home() {
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
 
-                    {/* Graphic Designing */}
-                    <div className="bg-[#1a1f25] p-6 rounded-2xl shadow-lg hover:scale-105 transition transform duration-300">
-                        <h4 className="text-xl font-semibold text-white mb-3">Graphic Designing</h4>
-                        <p className="text-gray-400 text-sm">
-                            Posters, logos, banners, social media creatives and more.
-                        </p>
-                    </div>
+
 
                     {/* Web Developing */}
                     <div className="bg-[#1a1f25] p-6 rounded-2xl shadow-lg hover:scale-105 transition transform duration-300">
                         <h4 className="text-xl font-semibold text-white mb-3">Web Developing</h4>
                         <p className="text-gray-400 text-sm">
-                            Responsive websites using React, HTML, CSS, and JavaScript.
+                            Responsive and user-friendly websites built using React, HTML, CSS, and JavaScript.
                         </p>
                     </div>
 
@@ -235,17 +227,41 @@ export default function Home() {
                     <div className="bg-[#1a1f25] p-6 rounded-2xl shadow-lg hover:scale-105 transition transform duration-300">
                         <h4 className="text-xl font-semibold text-white mb-3">Accounting</h4>
                         <p className="text-gray-400 text-sm">
-I come from a commerce background with basic skills in bookkeeping, billing, and account management.                    </p>
+                            I come from a commerce background with basic skills in bookkeeping, billing, and account management.                    </p>
                     </div>
 
                     {/* Teaching */}
                     <div className="bg-[#1a1f25] p-6 rounded-2xl shadow-lg hover:scale-105 transition transform duration-300">
                         <h4 className="text-xl font-semibold text-white mb-3">Teaching</h4>
                         <p className="text-gray-400 text-sm">
-Commerce teacher with strong accounting skills, helping students build a solid foundation.                        </p>
+                            Commerce teacher with strong accounting skills, helping students build a solid foundation.                        </p>
                     </div>
-
+                    {/* Teaching */}
+                    <div className="bg-[#1a1f25] p-6 rounded-2xl shadow-lg hover:scale-105 transition transform duration-300">
+                        <h4 className="text-xl font-semibold text-white mb-3">Exam Preparation & Coaching</h4>
+                        <p className="text-gray-400 text-sm">
+                            Exam-oriented coaching for commerce and accountancy students with focused problem-solving and revision sessions.                        </p>
+                    </div>
+                    <div className="bg-[#1a1f25] p-6 rounded-2xl shadow-lg hover:scale-105 transition transform duration-300">
+                        <h4 className="text-xl font-semibold text-white mb-3">Final Accounts Preparation</h4>
+                        <p className="text-gray-400 text-sm">
+                            Accurate preparation of Trading Account, Profit & Loss Account, and Balance Sheet with strong conceptual clarity.                        </p>
+                    </div>
+                    <div className="bg-[#1a1f25] p-6 rounded-2xl shadow-lg hover:scale-105 transition transform duration-300">
+                        <h4 className="text-xl font-semibold text-white mb-3">Online <br />Coaching</h4>
+                        <p className="text-gray-400 text-sm">
+                            Online accountancy classes for Plus One and Plus Two students with clear and easy explanations                        </p>
+                    </div>
+                    {/* Graphic Designing */}
+                    <div className="bg-[#1a1f25] p-6 rounded-2xl shadow-lg hover:scale-105 transition transform duration-300">
+                        <h4 className="text-xl font-semibold text-white mb-3">Graphic Designing</h4>
+                        <p className="text-gray-400 text-sm">
+                            Posters, logos, banners, social media creatives and more.
+                        </p>
+                    </div>
                 </div>
+
+
             </section>
 
             {/* Skills Section */}
@@ -259,6 +275,12 @@ Commerce teacher with strong accounting skills, helping students build a solid f
                         { icon: <FaReact size={40} className="text-blue-400" />, name: "React" },
                         { icon: <FaNodeJs size={40} className="text-green-500" />, name: "Node.js" },
                         { icon: <FaGithub size={40} className="text-gray-400" />, name: "GitHub" },
+                        { icon: <FaBootstrap size={40} className="text-blue-400" />, name: "Bootstrap" },
+                        { icon: <FaPaintBrush size={40} className="text-purple-400" />, name: "Canva" },
+                        { icon: <FaFileExcel size={40} className="text-green-400" />, name: "Excel" },
+                        { icon: <FaFileWord size={40} className="text-blue-400" />, name: "Word" },
+
+
                     ].map((skill) => (
                         <motion.div
                             key={skill.name}
@@ -273,7 +295,7 @@ Commerce teacher with strong accounting skills, helping students build a solid f
             </section>
 
             {/* Projects Section */}
-            <section id="projects" className="px-10 py-20 bg-[#0d1117] text-center">
+            {/* <section id="projects" className="px-10 py-20 bg-[#0d1117] text-center">
                 <h3 className="text-3xl font-semibold text-teal-400 mb-10">Projects</h3>
                 <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
                     {[1, 2, 3].map((num) => (
@@ -295,7 +317,7 @@ Commerce teacher with strong accounting skills, helping students build a solid f
                         </motion.div>
                     ))}
                 </div>
-            </section>
+            </section> */}
 
             {/* Contact Section */}
             <section id="contact" className="bg-[#0f141a] py-20 px-10 text-center">
@@ -341,18 +363,21 @@ Commerce teacher with strong accounting skills, helping students build a solid f
                     {/* Contact Info */}
                     <div className="flex justify-center gap-6 text-gray-400 mt-8">
                         <div className="flex items-center gap-2">
-                            <FaEnvelope className="text-teal-400" /> sijunishaj94@gmail.com
+                            <FaEnvelope className="text-teal-400" /> tsnishajmuhammed70@gmail.com
                         </div>
+                    </div>
+                    <div className="flex justify-center gap-6 text-gray-400 mt-8">
                         <div className="flex items-center gap-2">
                             <FaPhoneAlt className="text-teal-400" /> +91 7034871922
                         </div>
                     </div>
 
+
                     {/* Social Icons */}
                     <div className="flex justify-center gap-6 mt-6">
                         {[
                             { icon: <FaWhatsapp />, link: "https://wa.me/917034871922?text=Hello%20Nishaj!" },
-                            { icon: <FaEnvelope />, link: "mailto:sijunishaj94@gmail.com" },
+                            { icon: <FaEnvelope />, link: "mailto:tsnishajmuhammed70@gmail.com" },
                             { icon: <FaTwitter />, link: "#" },
                             { icon: <FaInstagram />, link: "https://www.instagram.com/m_nish_aj?igsh=MWRkcm44Z21rZ3l3Ng==" },
                         ].map((social, index) => (
