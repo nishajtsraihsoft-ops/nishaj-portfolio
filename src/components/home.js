@@ -91,10 +91,10 @@ export default function Home() {
 
                     {/* Job Titles */}
                     <div className="space-y-1">
-                        <span className="block text-base md:text-xl text-gray-300">
+                        <span className="text-2xl md:text-5xl font-bold leading-tight">
                             Software Engineer,
-                        </span>
-                        <span className="block text-base md:text-xl text-gray-300">
+                        </span><br/>
+                        <span className="text-2xl md:text-5xl font-bold leading-tight">
                             Accounting Associate
                         </span>
                     </div>
