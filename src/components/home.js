@@ -73,7 +73,10 @@ export default function Home() {
             </header>
 
             {/* Hero Section */}
-            <section id="home" className="flex flex-col-reverse md:flex-row items-center justify-center px-10 py-16 md:py-24 gap-10">
+            <section
+                id="home"
+                className="flex flex-col-reverse md:flex-row items-center justify-center px-10 py-16 md:py-24 gap-10"
+            >
                 {/* Left Text */}
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}
@@ -81,13 +84,22 @@ export default function Home() {
                     transition={{ duration: 1 }}
                     className="md:w-1/2 text-center md:text-left space-y-5"
                 >
-                    <h2 className="text-4xl md:text-5xl font-bold leading-tight">
+                    <h2 className="text-3xl md:text-5xl font-bold leading-tight">
                         Hello <br />
-                        I'm <span className="text-teal-400">Nishaj</span><br />
-                        <span className="text-gray-300">Software Engineer ,</span><br/>
-                         <span className="text-gray-300">Accounting Associate</span>
+                        I'm <span className="text-teal-400">Nishaj</span>
                     </h2>
 
+                    {/* Job Titles */}
+                    <div className="space-y-1">
+                        <span className="block text-base md:text-xl text-gray-300">
+                            Software Engineer,
+                        </span>
+                        <span className="block text-base md:text-xl text-gray-300">
+                            Accounting Associate
+                        </span>
+                    </div>
+
+                    {/* Buttons */}
                     <div className="flex justify-center md:justify-start gap-4 pt-4">
                         <a
                             href="https://wa.me/917034871922?text=Hello%20Nishaj"
@@ -104,7 +116,6 @@ export default function Home() {
                         >
                             My Resume
                         </a>
-
                     </div>
                 </motion.div>
 
@@ -125,6 +136,7 @@ export default function Home() {
                     </div>
                 </motion.div>
             </section>
+
 
             {/* About Section */}
             <section id="about" className="px-10 py-20 md:py-28 bg-[#0d1117]">
