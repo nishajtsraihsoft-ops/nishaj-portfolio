@@ -36,7 +36,6 @@ export default function Home() {
                     <a href="#home" className="hover:text-teal-400">Home</a>
                     <a href="#about" className="hover:text-teal-400">About</a>
                     <a href="#skills" className="hover:text-teal-400">Skills</a>
-                    <a href="#projects" className="hover:text-teal-400">Projects</a>
                     <a href="#contact" className="hover:text-teal-400">Contact</a>
                 </nav>
 
@@ -90,11 +89,14 @@ export default function Home() {
 
                     <div className="flex justify-center md:justify-start gap-4 pt-4">
                         <a
-                            href="#projects"
+                            href="https://wa.me/917034871922?text=Hello%20Nishaj"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="bg-teal-500 px-6 py-3 rounded-lg text-white font-semibold hover:bg-teal-400 transition"
                         >
-                            Get a Project
+                            Let’s Connect
                         </a>
+
                         <a
                             href="/nishajrasume.pdf"
                             className="border border-teal-500 px-6 py-3 rounded-lg text-teal-400 font-semibold hover:bg-teal-500 hover:text-white transition"
