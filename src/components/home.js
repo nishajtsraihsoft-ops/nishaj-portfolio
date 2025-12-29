@@ -84,7 +84,8 @@ export default function Home() {
                     <h2 className="text-4xl md:text-5xl font-bold leading-tight">
                         Hello <br />
                         I'm <span className="text-teal-400">Nishaj</span><br />
-                        <span className="text-gray-300">Software Engineer</span>
+                        <span className="text-gray-300">Software Engineer ,</span><br/>
+                         <span className="text-gray-300">Accounting Associate</span>
                     </h2>
 
                     <div className="flex justify-center md:justify-start gap-4 pt-4">
